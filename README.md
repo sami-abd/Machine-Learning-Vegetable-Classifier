@@ -3,6 +3,8 @@
 ## Overview
 This project involves developing a Convolutional Neural Network (CNN) to classify images of vegetables into 15 different categories. The project was implemented as part of ENEL 525 - Machine Learning for Engineers at the University of Calgary.
 
+![Network Overview](network.png)
+
 ## Dataset
 The dataset used for this project is sourced from Ahmed et al. (2021) and contains 21,000 images, with 1,400 images per class. The vegetable classes include:
 - Bean
@@ -26,8 +28,7 @@ Due to limitations in processing power, only 1/5 of the dataset was used for tra
 ## Model Architecture
 The model consists of three convolutional layers, each followed by max pooling layers, and a fully connected (dense) layer with dropout for regularization.
 
-### Network Overview
-![Network Overview](network.png)
+![Model Summary](overview.png)
 
 ## Confusion Matrix
 The model achieved an accuracy of 79.5% on the test set. Below is the confusion matrix showing the model's performance across different classes:
